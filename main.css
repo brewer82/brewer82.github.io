@@ -1,0 +1,58 @@
+body{
+	background-color:grey;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5vh;
+}
+
+#main {
+	width: 90%;
+	height: 100vh;
+	padding: 5vh 5% 5vh 5%;
+	background-color: white;
+}
+
+h1,h2,h3{
+	text-align: center;
+}
+
+button {
+	background-color: white;
+	border: 2px solid red;
+	padding: 1vh 2% 1vh 2%;
+	margin: 2vh 2% 2vh 2%;
+	min-width: 100px;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+
+#roomSelect {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	align-content:center;
+}
+
+#buttons{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	align-content:center;
+}
+
+#custInfo{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-content: center;
+}
+
+#home{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	align-content:center;
+}
