@@ -2,16 +2,21 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 <div id = 'main'>
-	<h1>Home</h1>
+	<div class = "title">
+		<h1>Convention Center</h1>
+	</div>
+	<div class="navbar">
+		<a href="index.html" id = 'active'>Home</a>
+	</div>
+	<h2>Select Account Type</h2>
 	<div id = 'buttons'>
-		<button type="button" onclick="window.location.href = 'reserve1.html';">Reserve a room</button>
-		<button type="button" onclick="window.location.href = 'view1.html';">View rooms</button>
-		<button type="button" onclick="window.location.href = 'contactInfo.html';">Enter Contact Info</button>
-		<button type="button" onclick="window.location.href = 'officeInfo.html';">Office Contact Info</button>
+		<button type="button" onclick="window.location.href = 'staffHome.html';">Staff</button>
+		<button type="button" onclick="window.location.href = 'customerHome.html';">Customer</button>
 	</div>
 </div>
 </body>

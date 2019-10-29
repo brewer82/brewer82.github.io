@@ -11,7 +11,6 @@
 	</div>
 	<div class="navbar">
 		<a href="index.html">Home</a>
-		<a href="officeInfo.html" id = 'active'>Contact Us</a>
 		<div class="dropdown">
 			<button class="dropbtn">Reserve
 				<i class="fa fa-caret-down"></i>
@@ -22,34 +21,27 @@
 				<a href="contactInfo.html">Your contact info</a>
 			</div>
 		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Administration
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="viewReserve1.html">View Reservation</a>
+				<a href="reserve1.html">Edit Reservation</a>
+			</div>
+		</div>
 	</div>
-	<h2>Input payment information</h2>
+	<h2>Input contact information</h2>
 	<div id = 'custInfo'>
 	<form>
 		First Name:<br>
 		<input type="text" name="firstName"><br>
 		Last Name:<br>
 		<input type="text" name="lastName"><br>
-		Company:<br>
-		<input type="text" name="company"><br>
-		Street Address:<br>
-		<input type="text" name="streetAddress"><br>
-		City:<br>
-		<input type="text" name="city"><br>
-		State:<br>
-		<input type="text" name="State"><br>
-		ZIP:<br>
-		<input type="text" name="zipCode"><br>
-		Card Number:<br>
-		<input type="text" name="Card Number"><br>
-		Expiration Date:<br>
-		<input type="text" name="Card Number"><br>
-		CCV:<br>
-		<input type="text" name="CCV"><br>
 	</form>
 	<br>
-	<button type="button" onclick="window.location.href = 'reserveComplete.html';">Submit</button>
-	</div>
+	<button type="button" onclick="window.location.href = 'viewReserve2.html';">Submit</button>
+	<button type="button" onclick="window.location.href = 'index.html';">Cancel</button>
 </div>
 </body>
 </html>

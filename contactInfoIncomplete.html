@@ -3,9 +3,27 @@
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="incomplete.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
 <body>
 <div id = 'main'>
+	<div class = "title">
+		<h1>Convention Center</h1>
+	</div>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="officeInfo.html" id = 'active'>Contact Us</a>
+		<div class="dropdown">
+			<button class="dropbtn">Reserve
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="view1.html">View Rooms</a>
+				<a href="reserve1.html">Reserve a Room</a>
+				<a href="contactInfo.html">Your contact info</a>
+			</div>
+		</div>
+	</div>
 	<h1>Input contact information</h1>
 	<div id = 'custInfo'>
 	<h2>Contact information incomplete. Please complete all boxes.</h2>
