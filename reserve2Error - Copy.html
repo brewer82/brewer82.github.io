@@ -29,6 +29,7 @@
 	<h2> Select a day to reserve</h2>
 	<h3>Room 101 - Occupancy: 30</h3>
 	<h3>10/6/2019 - 10/12/2019</h3>
+	<h3 style = "color:red">Please select an available date</h3>
 	<form action = "">
 		<select name = "date" id = "reserveDate">
 			<option value="Sunday">Sunday</option>
@@ -72,7 +73,7 @@ function checkDate() {
 	var e = document.getElementById("reserveDate");
 	var selectedDate = e.options[e.selectedIndex].value;
 	
-	if(selectedDate == "Tuesday") window.location.href = 'reserve2Error.html';	
+	if(selectedDate == "Tuesday") window.location.href = 'index.html';	
 	else window.location.href = 'reserve3.html';
 }
 
